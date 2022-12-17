@@ -1,7 +1,11 @@
-import type { NextPage } from "next";
-
+import type { NextPage } from 'next'
+import { Box, Heading } from '@chakra-ui/react'
 const Page: NextPage = () => {
-  return <div>home</div>;
-};
+  return (
+    <Box>
+      <Heading>Chakura UI</Heading>
+    </Box>
+  )
+}
 
-export default Page;
+export default Page
